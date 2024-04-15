@@ -1,0 +1,109 @@
+.main-container{
+    display: block;
+}
+
+#skip-link{
+    margin-top: 5%;
+    margin-right: 5%;
+    font-family: montserrat;
+    text-align: right; 
+}
+
+.image-container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.heading{
+    font-size: 20px;
+    font-family: "montserrat";
+    margin-top:10% ; 
+    margin-left: 2%;
+}
+
+.content{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "montserrat regular";
+    margin-top:10% ; 
+    margin-left: 2%; 
+    margin-top: 0;
+    margin-right: 2%;
+}
+
+.next-img-container {
+    position: relative;
+    margin-top: 40%;
+    margin-left: 75%;
+    width: 70px; /* Adjust width as needed */
+    height: 70px; /* Adjust height as needed */
+}
+
+.next-img{
+    height: 60px;
+    width: 60px;
+}
+
+#loadingCanvas {
+    position: absolute;
+    top: -25px;
+    left: -25px ;
+    width: 110px; /* Make both elements fill the container */
+    height: 110px; /* Make both elements fill the container */
+}
+
+.main-container1{
+    z-index: 1;
+    display: none;
+}
+
+#skip-link1{
+    margin-top: 5%;
+    margin-right: 5%;
+    font-family: montserrat;
+    text-align: right; 
+}
+
+.image-container1{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.heading1{
+    font-size: 20px;
+    font-family: "montserrat";
+    margin-top:22% ; 
+    margin-left: 2%;
+}
+
+.content1{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "montserrat regular";
+    margin-top:10% ; 
+    margin-left: 2%; 
+    margin-top: 0;
+    margin-right: 2%;
+}
+
+.next-img-container1{
+    position: relative;
+    margin-top: 40%;
+    margin-left: 75%;
+    width: 70px; /* Adjust width as needed */
+    height: 70px; /* Adjust height as needed */
+}
+
+.next-img1{
+    height: 60px;
+    width: 60px;
+}
+
+#loadingCanvas1{
+    position: absolute;
+    top: -25px;
+    left: -25px ;
+    width: 110px; /* Make both elements fill the container */
+    height: 110px; /* Make both elements fill the container */
+
+}

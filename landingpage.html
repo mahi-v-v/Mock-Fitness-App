@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <a href="signup.html"><p id="skip-link">Skip</p></a>
+        <center><img class="image-container" src="image 13.png" alt="Image"></center>
+    
+        <h1 class="heading">Track Your Goal</h1>
+        <h2 class="content">Don’t worry if you have trouble determining your goals, We can help you determine your goals and track your goals</h2>
+        
+        <div class="next-img-container" onclick="switchPage();">
+            <img class="next-img" src="Ellipse 1.png" alt="">
+            <canvas id="loadingCanvas" width="100" height="100"></canvas>
+        </div>
+    </div>
+
+    <div class="main-container1">
+        <a href="signup.html"><p id="skip-link1">Skip</p></a>
+        <center><img class="image-container1" src="image 16.png" alt="Image"></center>
+    
+        <h1 class="heading1">Get Burn</h1>
+        <h2 class="content1">Let’s keep burning to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever</h2>
+        
+        <div class="next-img-container1" onclick="redirect();">
+            <img class="next-img" src="Ellipse 1.png" alt="">
+            <canvas id="loadingCanvas1" width="100" height="100"></canvas>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

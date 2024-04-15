@@ -1,0 +1,169 @@
+.create-account{
+    margin-top: 5%;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+
+input{
+    margin-top: 8%;
+    font-family: montserrat;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 12px;
+    width: 343px;
+    height: 50px;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-top: 8%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 20%; /* Make the checkbox curved */
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 7px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid #1a73e8;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox-container a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.checkbox-container a:hover {
+    text-decoration: underline;
+}
+
+.sbmt-btn{
+    font-size: 16px;
+    font-family: montserrat ;
+    color: white;
+    background-image: linear-gradient(to left, #7B91FF, #95BEFF);
+    border: none;
+    margin-top: 25%;
+    width: 343px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.split-hr {
+    text-align: center;
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .split-hr::before,
+  .split-hr::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .split-hr::before {
+    left: 0;
+  }
+  
+  .split-hr::after {
+    right: 0;
+  }
+  
+  .split-hr span {
+    font-family: montserrat regular;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .google {
+    background-color: #ffffff;
+    color: #000; /* Changed text color to black */
+  }
+  
+  .facebook {
+    background-color: #ffffff;
+    color: #000; /* Changed text color to black */
+  }
+
+  .social-icon-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .login-page-link{
+    font-family: montserrat regular;
+    margin-top: 15%;
+  }
+
+ #frgt-pswrd{
+    font-family: "montserrat regular";
+    font-size: 14px;
+    margin-left: 1.5%;
+    margin-bottom: 48.5%;
+  }

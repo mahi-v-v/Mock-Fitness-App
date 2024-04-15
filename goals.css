@@ -1,0 +1,126 @@
+.goals{
+    margin-top: 5%;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+input{
+    margin-top: 8%;
+    font-family: montserrat;
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 12px;
+    width: 343px;
+    height: 50px;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+.sbmt-btn{
+    font-size: 16px;
+    font-family: montserrat ;
+    color: white;
+    background-image: linear-gradient(to left, #7B91FF, #95BEFF);
+    border: none;
+    margin-top: 25%;
+    width: 343px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.main-container {
+    font-family: Arial, sans-serif;
+}
+
+.goals-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.checkbox-container {
+    height: 50px;
+    width: 343px;
+    background-color: #F1F1F1;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #2C2B2B;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px; /* Adjust the distance from the right */
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 20%; /* Make the checkbox curved */
+    border: 2px solid #1a73e8; /* Blue border color */
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #1a73e8; /* Checkbox color when checked */
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    content: "";
+    left: 7px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox-container a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.checkbox-container a:hover {
+    text-decoration: underline;
+}
+
+.texts {
+    font-family: roboto;
+    margin-left: 5%;
+}
+.sbmt-btn{
+    font-size: 16px;
+    font-family: montserrat ;
+    color: white;
+    background-image: linear-gradient(to left, #7B91FF, #95BEFF);
+    border: none;
+    margin-top: 25%;
+    width: 343px;
+    height: 50px;
+    border-radius: 12px;
+}
